@@ -1,0 +1,10 @@
+@supports (-webkit-touch-callout: none) {
+    body {
+      -webkit-font-smoothing: antialiased;
+    }
+  
+    .ball {
+      line-height: 1;
+    }
+  }
+  

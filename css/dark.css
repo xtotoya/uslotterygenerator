@@ -1,0 +1,12 @@
+@media (prefers-color-scheme: dark) {
+    body {
+      background: #0e0e0e;
+      color: #eaeaea;
+    }
+  
+    button {
+      background: #eaeaea;
+      color: #111;
+    }
+  }
+  

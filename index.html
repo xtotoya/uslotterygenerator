@@ -1,14 +1,41 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Hello World</title>
-  <link href='/style.css' rel='stylesheet'>
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>US Lottery Number Generator</title>
+
+  <link rel="manifest" href="/manifest.json" />
+  <link rel="stylesheet" href="/css/base.css" />
+  <link rel="stylesheet" href="/css/ui.css" />
+  <link rel="stylesheet" href="/css/dark.css" />
+  <link rel="stylesheet" href="/css/ios.css" />
+
+  <meta name="theme-color" content="#111111" />
 </head>
 <body>
-  <h1>Hello, world!</h1>
-  <button onclick="console.log('hello');">Press me</button>
-  <script defer type="text/javascript" src="/main.js"></script>
+  <main class="container">
+    <h1>🎯 US Lottery Generator</h1>
+
+    <select id="gameSelect">
+      <option value="powerball">Powerball</option>
+      <option value="megamillions">Mega Millions</option>
+    </select>
+
+    <button id="generateBtn">Generate Numbers</button>
+
+    <div id="result" class="balls"></div>
+
+    <footer class="notice">
+      <p>This site does not sell lottery tickets.</p>
+      <p>Numbers are generated randomly. No guarantee of winning.</p>
+      <p>No ads. No tracking. No data collection.</p>
+    </footer>
+  </main>
+
+  <script src="/js/games.js"></script>
+  <script src="/js/engine.js"></script>
+  <script src="/js/app.js"></script>
 </body>
 </html>

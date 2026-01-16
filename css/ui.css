@@ -1,0 +1,57 @@
+select, button {
+    width: 100%;
+    padding: 14px;
+    margin-top: 12px;
+    font-size: 16px;
+    border-radius: 12px;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    background: #111;
+    color: #fff;
+    font-weight: 600;
+    border: none;
+  }
+  
+  button:active {
+    transform: scale(0.97);
+    opacity: 0.85;
+  }
+  
+  .balls {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 16px;
+    min-height: 56px;
+  }
+  
+  .ball {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.18);
+    animation: appear 0.18s ease-out;
+    font-feature-settings: "tnum";
+  }
+  
+  .ball.bonus {
+    border: 2px solid #000;
+  }
+  
+  @keyframes appear {
+    from { transform: scale(0.92); opacity: 0; }
+    to { transform: scale(1); opacity: 1; }
+  }
+  
+  .notice {
+    margin-top: 24px;
+    font-size: 12px;
+    opacity: 0.7;
+  }
+  
