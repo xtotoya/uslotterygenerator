@@ -8,5 +8,13 @@
       background: #eaeaea;
       color: #111;
     }
+
+    .ball.bonus {
+        border: 2px solid #fff;
+    }
+
+    .yellow-ball {
+        color: #000;
+    }
   }
   

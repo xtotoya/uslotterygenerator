@@ -21,6 +21,9 @@ btn.addEventListener("click", () => {
 function createBall(num, color, isBonus = false) {
   const div = document.createElement("div");
   div.className = "ball" + (isBonus ? " bonus" : "");
+  if (color === '#fbc02d' || color === '#ffeb3b') {
+    div.classList.add('yellow-ball');
+  }
   div.textContent = num;
   div.style.backgroundColor = color;
   return div;

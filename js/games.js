@@ -1,8 +1,8 @@
 const GAMES = {
     powerball: {
       name: "Powerball",
-      main: { count: 5, max: 69, color: "#e53935" },
-      bonus: { count: 1, max: 26, color: "#f44336" }
+      main: { count: 5, max: 69, color: "#FFFFFF" },
+      bonus: { count: 1, max: 26, color: "#FF0000" }
     },
     megamillions: {
       name: "Mega Millions",
