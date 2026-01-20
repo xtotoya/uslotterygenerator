@@ -55,3 +55,27 @@ select, button {
     opacity: 0.7;
   }
   
+.info-links {
+  margin-top: 24px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.info-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 8px 0 0;
+}
+
+.info-links li {
+  margin: 6px 0;
+}
+
+.info-links a {
+  color: #2563eb;
+  text-decoration: none;
+}
+
+.info-links a:hover {
+  text-decoration: underline;
+}
