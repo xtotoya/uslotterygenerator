@@ -13,6 +13,16 @@
   <link rel="stylesheet" href="/css/ios.css" />
 
   <meta name="theme-color" content="#111111" />
+
+  <style>
+    /* 임시 비활성화 표시 스타일 (필요시 css 파일로 옮기세요) */
+    .disabled-link {
+      color: #999;
+      cursor: default;
+      text-decoration: none;
+      pointer-events: none;
+    }
+  </style>
 </head>
 <body>
   <main class="container">
@@ -31,14 +41,10 @@
       <p class="info-title">📊 Lottery Information</p>
       <ul>
         <li>
-          ▸ <a href="/info/last-week-powerball.html">
-            Last Week Powerball Winning Numbers
-          </a>
+          ▸ <span class="disabled-link" aria-disabled="true" title="This page is under maintenance">Last Week Powerball Winning Numbers</span>
         </li>
         <li>
-          ▸ <a href="/info/last-week-mega-millions.html">
-            Last Week Mega Millions Winning Numbers
-          </a>
+          ▸ <span class="disabled-link" aria-disabled="true" title="This page is under maintenance">Last Week Mega Millions Winning Numbers</span>
         </li>
       </ul>
     </section>
